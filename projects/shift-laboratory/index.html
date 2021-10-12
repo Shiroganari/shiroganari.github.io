@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаборатория ШИФТ</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Поиск по названию</h1>
+
+        <div class="filters">
+            <input class="filters__input" type="text" id="search-input">
+            <button class="filters__button" id="search-button">Найти</button>
+            <div id="result-count"></div>
+        </div>
+
+        <div class="table" id="table">
+            <div class="table__head table__row">
+                <div class="table__cell">ID</div>
+                <div class="table__cell">Название товара</div>
+                <div class="table__cell">Производитель</div>
+                <div class="table__cell">Количество</div>
+                <div class="table__cell ">Цена</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell cell-id">657</div>
+                <div class="table__cell cell-title">MSI Geforce GTX 1660</div>
+                <div class="table__cell cell-producer">MSI</div>
+                <div class="table__cell cell-count">4</div>
+                <div class="table__cell cell-price">61999</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell cell-id">658</div>
+                <div class="table__cell cell-title">Palit GeForce RTX 3060</div>
+                <div class="table__cell cell-producer">PALIT</div>
+                <div class="table__cell cell-count">7</div>
+                <div class="table__cell cell-price">82999</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell cell-id">659</div>
+                <div class="table__cell cell-title">Palit GeForce RTX 3090 </div>
+                <div class="table__cell cell-producer">PALIT</div>
+                <div class="table__cell cell-count">0</div>
+                <div class="table__cell cell-price">294999</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell cell-id">660</div>
+                <div class="table__cell cell-title">GIGABYTE AORUS GeForce RTX 3080</div>
+                <div class="table__cell cell-producer">GIGABYTE</div>
+                <div class="table__cell cell-count">1</div>
+                <div class="table__cell cell-price">159000</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
